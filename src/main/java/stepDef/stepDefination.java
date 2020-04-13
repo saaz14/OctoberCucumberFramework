@@ -57,7 +57,7 @@ public class stepDefination {
     @Then("^Search for \"([^\"]*)\" within the table and capture the value$")
     public void Search_for(String arg1)  {    
     	
-    	for (int numberOfRows = 1; numberOfRows <= 10; numberOfRows++) {
+    	for (int numberOfRows = 1; numberOfRows <= 6; numberOfRows++) {
 
             for (int numberOfCol = 1; numberOfCol <= 5; numberOfCol++) {
             	
